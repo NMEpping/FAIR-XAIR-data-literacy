@@ -1,0 +1,61 @@
+[project]
+name = "fair-xair-data-literacy"
+version = "0.2.0"
+description = "ECIU micromodule tutorial on FAIR & XAIR data literacy for chemical and bioprocess engineering, using DEXPI, pyDEXPI, knowledge graphs and RO-Crate."
+authors = [
+    { name = "Niklas Epping" },
+]
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+license = { text = "MIT" }
+keywords = [
+    "DEXPI",
+    "P&ID",
+    "FAIR",
+    "RO-Crate",
+    "knowledge-graph",
+    "process-engineering",
+    "research-data-management",
+]
+
+dependencies = [
+    # P&ID / DEXPI handling
+    "pydexpi>=1.2.0",
+    # Graph + scientific stack
+    "networkx>=3.2",
+    "matplotlib>=3.8",
+    "pandas>=2.1",
+    "numpy>=1.26",
+    # Interactive graph visualisation in notebooks
+    "pyvis>=0.3.2",
+    "ipython>=8.18",
+    # Semantic web / knowledge graphs
+    "rdflib>=7.0",
+    # Research Object Crates
+    "rocrate>=0.10.0",
+    # Notebook environment
+    "jupyterlab>=4.0",
+    "ipykernel>=6.29",
+    "ipywidgets>=8.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.5",
+    "nbqa>=1.8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+# This project is delivered as tutorial notebooks; no Python package to ship.
+bypass-selection = true
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"

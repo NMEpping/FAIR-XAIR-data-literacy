@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this tutorial in teaching or research, please cite it as below."
+title: "FAIR & XAIR Data Literacy"
+abstract: >-
+  An undergraduate-friendly, notebook-guided tutorial on FAIR and XAIR
+  (eXplainable and AI-ready) Research Data Management for chemical and
+  bioprocess engineering. Built around the DEXPI 1.3 reference P&ID,
+  pyDEXPI, knowledge graphs and RO-Crate. Developed as part of an
+  ECIU University micromodule on FAIR & XAIR data literacy.
+type: software
+authors:
+  - family-names: Epping
+    given-names: Niklas-Maximilian
+    affiliation: "ECIU University micromodule on FAIR & XAIR data literacy"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO: add
+keywords:
+  - FAIR
+  - XAIR
+  - research data management
+  - DEXPI
+  - RO-Crate
+  - knowledge graph
+  - process systems engineering
+  - bioprocess engineering
+  - ECIU
+  - micromodule
+license: MIT
+repository-code: "https://github.com/<your-github-username>/FAIR-XAIR-data-literacy"
+version: "0.1.0"
+date-released: "2026-05-05"

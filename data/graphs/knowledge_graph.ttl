@@ -1,0 +1,104 @@
+@prefix dexpi: <http://dexpi.org/ontology/> .
+
+<http://example.org/pid/equipment/a02c5fc3-1037-48f1-96ca-9a898ca87c7c> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/3fbe0c81-75dd-4f03-bb2c-4637a6d0fa7c> .
+
+<http://example.org/pid/equipment/ef5540c0-deea-4418-a526-1bc994521563> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/13be620b-8b12-4418-a980-81e47f8ab9ee> .
+
+<http://example.org/pid/equipment/13be620b-8b12-4418-a980-81e47f8ab9ee> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/22b2bd20-6919-4aee-b5d7-c29872104e1d> .
+
+<http://example.org/pid/equipment/22b2bd20-6919-4aee-b5d7-c29872104e1d> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/7bc6e02d-77d7-4475-beeb-14fca3b096ef> .
+
+<http://example.org/pid/equipment/242706ae-a9a2-478b-a153-a4b5d3aa12f8> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/d63ecd93-bf0b-4e0a-957f-9324cc5b9a9a> .
+
+<http://example.org/pid/equipment/2813cfdb-007d-491b-9739-e8add3cb83d2> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/44a8bd22-7e41-47ba-92d8-60ccdd531d57> .
+
+<http://example.org/pid/equipment/2c38ec70-a51f-4b1c-a100-ce8fc76123ff> a dexpi:Equipment .
+
+<http://example.org/pid/equipment/3690bbf1-8e2d-4f3e-b370-a2ad188642c4> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/fa5210a9-7c45-4137-bec0-c97ccb9f8775> .
+
+<http://example.org/pid/equipment/3fbe0c81-75dd-4f03-bb2c-4637a6d0fa7c> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/7bc6e02d-77d7-4475-beeb-14fca3b096ef> .
+
+<http://example.org/pid/equipment/41076a01-0747-4cd4-a155-39f44b1b1421> a dexpi:Equipment .
+
+<http://example.org/pid/equipment/44a8bd22-7e41-47ba-92d8-60ccdd531d57> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/af6d71aa-4a16-4464-bb6e-df23e74ca93c> .
+
+<http://example.org/pid/equipment/4b7dfdc7-3e57-423b-b096-1968c75e26eb> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/2813cfdb-007d-491b-9739-e8add3cb83d2> .
+
+<http://example.org/pid/equipment/5e6ca1c8-3183-4ea5-b17b-a29c1c3b3d1c> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/380530ac-4600-4130-9ae6-84ad3842c80a> .
+
+<http://example.org/pid/equipment/6914c56c-c9e4-4bb1-aabb-b9bcba73c45f> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/776f9fe5-37c1-4b7d-bbc0-9ea9e339a351> .
+
+<http://example.org/pid/equipment/776f9fe5-37c1-4b7d-bbc0-9ea9e339a351> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/b985f3db-f5e0-402e-9dc8-d9f1a78b97a0> .
+
+<http://example.org/pid/equipment/81cdaf31-8856-4db3-8120-86354f77600b> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/ff0d6a22-acd7-44f4-b33d-c301ac7b1b67> .
+
+<http://example.org/pid/equipment/853060f0-d799-45cf-8d89-5f175d8bcce8> a dexpi:Equipment .
+
+<http://example.org/pid/equipment/8b5c58f2-4973-41da-bfdd-8aafbcce2d15> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/4b7dfdc7-3e57-423b-b096-1968c75e26eb> .
+
+<http://example.org/pid/equipment/af6d71aa-4a16-4464-bb6e-df23e74ca93c> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/2c38ec70-a51f-4b1c-a100-ce8fc76123ff>,
+        <http://example.org/pid/equipment/cfedeec6-579f-4f73-ad68-812e6282e0f1> .
+
+<http://example.org/pid/equipment/b985f3db-f5e0-402e-9dc8-d9f1a78b97a0> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/f4fa7e45-bf8f-4c67-9b23-d46b5a14e799> .
+
+<http://example.org/pid/equipment/c65e4b85-680c-4738-be78-8b26ec765510> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/ada35352-8b38-4962-ae7b-adfb861be3c4>,
+        <http://example.org/pid/equipment/d63ecd93-bf0b-4e0a-957f-9324cc5b9a9a> .
+
+<http://example.org/pid/equipment/c8b04c72-25f6-4dff-8e84-fed5d8aba36c> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/6914c56c-c9e4-4bb1-aabb-b9bcba73c45f>,
+        <http://example.org/pid/equipment/853060f0-d799-45cf-8d89-5f175d8bcce8> .
+
+<http://example.org/pid/equipment/cfedeec6-579f-4f73-ad68-812e6282e0f1> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/5e6ca1c8-3183-4ea5-b17b-a29c1c3b3d1c>,
+        <http://example.org/pid/equipment/d12c17be-c0a3-44ae-8923-ec1fe446f670> .
+
+<http://example.org/pid/equipment/d12c17be-c0a3-44ae-8923-ec1fe446f670> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/3690bbf1-8e2d-4f3e-b370-a2ad188642c4>,
+        <http://example.org/pid/equipment/81cdaf31-8856-4db3-8120-86354f77600b> .
+
+<http://example.org/pid/equipment/ee1e3194-ed0e-465f-9341-1fa59ae57a7b> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/242706ae-a9a2-478b-a153-a4b5d3aa12f8> .
+
+<http://example.org/pid/equipment/f256689f-dafb-404e-9041-ed63e54291f0> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/8b5c58f2-4973-41da-bfdd-8aafbcce2d15> .
+
+<http://example.org/pid/equipment/f4fa7e45-bf8f-4c67-9b23-d46b5a14e799> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/ada35352-8b38-4962-ae7b-adfb861be3c4> .
+
+<http://example.org/pid/equipment/fa5210a9-7c45-4137-bec0-c97ccb9f8775> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/41076a01-0747-4cd4-a155-39f44b1b1421> .
+
+<http://example.org/pid/equipment/ff0d6a22-acd7-44f4-b33d-c301ac7b1b67> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/c65e4b85-680c-4738-be78-8b26ec765510>,
+        <http://example.org/pid/equipment/c8b04c72-25f6-4dff-8e84-fed5d8aba36c> .
+
+<http://example.org/pid/equipment/7bc6e02d-77d7-4475-beeb-14fca3b096ef> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/380530ac-4600-4130-9ae6-84ad3842c80a> .
+
+<http://example.org/pid/equipment/ada35352-8b38-4962-ae7b-adfb861be3c4> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/380530ac-4600-4130-9ae6-84ad3842c80a> .
+
+<http://example.org/pid/equipment/d63ecd93-bf0b-4e0a-957f-9324cc5b9a9a> a dexpi:Equipment .
+
+<http://example.org/pid/equipment/380530ac-4600-4130-9ae6-84ad3842c80a> a dexpi:Equipment ;
+    dexpi:connectedTo <http://example.org/pid/equipment/ee1e3194-ed0e-465f-9341-1fa59ae57a7b>,
+        <http://example.org/pid/equipment/f256689f-dafb-404e-9041-ed63e54291f0> .
+

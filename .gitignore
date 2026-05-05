@@ -1,0 +1,41 @@
+# --- Python -----------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments / package managers --------------------------------
+.venv/
+venv/
+env/
+.env
+.python-version
+
+# --- Jupyter ----------------------------------------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# --- Editors / OS -----------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Tutorial generated artefacts -------------------------------------------
+# Outputs that learners regenerate by re-running the notebooks.
+# Comment these out if you want to ship the demo crate as a release artefact.
+ro_crate_output/
+data/graphs/*.html
+data/graphs/*.svg
+
+# --- Misc -------------------------------------------------------------------
+*.log
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/

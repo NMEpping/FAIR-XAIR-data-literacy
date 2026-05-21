@@ -1,0 +1,86 @@
+{
+  "name": "Formate dehydrogenase catalyzed reaction",
+  "version": "",
+  "description": "Molecules and protein involved in the formate dehydrogenase (FDH) catalyzed reaction: sodium formate and NAD+ as substrates, CO2 and NADH as products, catalyzed by FDH.",
+  "created": "",
+  "modified": "",
+  "creators": [],
+  "vessels": [],
+  "proteins": [
+    {
+      "id": "formate_dehydrogenase",
+      "name": "Formate dehydrogenase",
+      "constant": true,
+      "sequence": "MAKVLCVLYDDPVDGYPKTYARDDLPKIDHYPGGQTLPTPKAIDFTPGQLLGSVSGELGLRKYLESNGHTLVVTSDKDGPDSVFERELVDADVVISQPFWPAYLTPERIAKAKNLKLALTAGIGSDHVDLQSAIDRNVTVAEVTYCNSISVAEHVVMMILSLVRNYLPSHEWARKGGWNIADCVSHAYDLEAMHVGTVAAGRIGLAVLRRLAPFDVHLHYTDRHRLPESVEKELNLTWHATREDMYPVCDVVTLNCPLHPETEHMINDETLKLFKRGAYIVNTARGKLCDRDAVARALESGRLAGYAGDVWFPQPAPKDHPWRTMPYNGMTPHISGTTLTAQARYAAGTREILECFFEGRPIRDEYLIVQGGALAGTGAHSYSKGNATGGSEEAAKFKKAV",
+      "vessel_id": "",
+      "ecnumber": "1.17.1.9",
+      "organism": "Pseudomonas sp. (strain 101)",
+      "organism_tax_id": "33067",
+      "references": [
+        "https://www.uniprot.org/uniprotkb/P33160"
+      ]
+    }
+  ],
+  "small_molecules": [
+    {
+      "id": "sodium_formate",
+      "name": "Sodium formate",
+      "constant": false,
+      "vessel_id": "",
+      "canonical_smiles": "C(=O)[O-].[Na+]",
+      "inchi": "InChI=1S/CH2O2.Na/c2-1-3;/h1H,(H,2,3);/q;+1/p-1",
+      "inchikey": "HLBBFZGNZZXHHH-UHFFFAOYSA-M",
+      "synonymous_names": [
+        "Formic acid sodium salt"
+      ],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/2723798"
+      ]
+    },
+    {
+      "id": "nad_plus",
+      "name": "NAD+",
+      "constant": false,
+      "vessel_id": "",
+      "canonical_smiles": "",
+      "inchi": "",
+      "inchikey": "",
+      "synonymous_names": [
+        "Nicotinamide adenine dinucleotide (oxidized)"
+      ],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/439154"
+      ]
+    },
+    {
+      "id": "co2",
+      "name": "CO2",
+      "constant": false,
+      "vessel_id": "",
+      "canonical_smiles": "O=C=O",
+      "inchi": "InChI=1S/CO2/c2-1-3",
+      "inchikey": "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+      "synonymous_names": [
+        "Carbon dioxide"
+      ],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+      ]
+    },
+    {
+      "id": "nadh",
+      "name": "NADH",
+      "constant": false,
+      "vessel_id": "",
+      "canonical_smiles": "",
+      "inchi": "",
+      "inchikey": "",
+      "synonymous_names": [
+        "Nicotinamide adenine dinucleotide (reduced)"
+      ],
+      "references": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/439153"
+      ]
+    }
+  ]
+}
